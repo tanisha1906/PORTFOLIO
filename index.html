@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="Stylesheet" href="style1.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="menu-btn.jpg" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="trek.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Enjoy plenty of excellent views out over mountains, rivers, lakes and forests when you head out 
+                     into Romania.</p>
+                <a href="#" class="ctn">Learn More</a>
+
+            </div>
+            <div class="col">
+                <img src="val.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Enjoy plenty of excellent views out over mountains, rivers, lakes and forests when you head out 
+                     into Romania.</p>
+                <a href="#" class="ctn">Learn More</a>
+
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>The most important thing about an explorer yacht is that it has to be able to do what it says on the 
+                 tin;explore.Robust enough to be taken to all corners of the globe, while still functioning as a luxury vessel, the creative approaches that designers have taken to achieving this goal are wide and varied. Thanks to advances in ‘explorer’ designs, unforgettable destinations are now more accessible than ever before.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Every tour is an art piece, which we craft carefully for our guests, keeping into consideration their needs and comforts. We always try our best to give something new and exciting to our customers.
+
+                    Our specially curated tours let tourists explore a whole new world, full of diverse cultures, thrilling adventures, peaceful experiences, and delectable cuisines. Though we serve tourists from all over the world, the majority of our guests belong to the USA, UK, Canada, Australia, Germany, Italy, France, Spain, Mexico, Portugal, etc.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="tour.jpg" alt="">
+                    <img src="tour1.jpg" alt="">
+                    <img src="tour2.jpg" alt="">
+                    <img src="tour3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Ashok Travels & Tours, Room No-506, 5th floor, Scope Complex, Core-8, 7 Lodhi Road, New Delhi-110003
+
+            Tele:+91-11-24361874
+            
+            Email:   atttransport@itdc.co.in</p>
+        <p>Copyright © 2019 India Tourism Development Corporation. All Rights Reserved.</p>
+    </section>
+
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click' ,()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
